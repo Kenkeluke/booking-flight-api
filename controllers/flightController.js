@@ -1,6 +1,6 @@
 exports.example = (req, res) => {
-    console.log("example")
-    res.send("Flight example")
-}
+    console.log("example");
+    res.send("Flight example");
+};
 
 
