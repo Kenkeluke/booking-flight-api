@@ -1,1 +1,2 @@
-exports.Flights = [];
+Flights = [];
+module.exports

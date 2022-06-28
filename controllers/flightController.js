@@ -1,9 +1,9 @@
-const { Flights } = require("../models/Flights");
+const { Flights } = require("../models/Flight");
 //calling package that handles the flight ids
 const { v4: uuid } = require("uuid");
 
    //Booking a flight
-   exports.bookFlight =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            async (req, res) => {
+   exports.bookFlight = async (req, res) => {
     try {
        const {title, time, price, date} = await req.body;
        const bookFlight = {
@@ -42,7 +42,7 @@ exports.getAllFlights = async(req, res) => {
 
 };
 
-// to get a single flight using id
+// to get a single flight using id                                                                                                          
 exports.getSingleFlight = async (req, res) => {
     try {
         let id = req.params.id;
