@@ -42,7 +42,8 @@ exports.getAllFlights = async(req, res) => {
 
 };
 
-// to get a single flight using id                                                                                                          
+
+// to get a single flight usingid                                                                                                          
 exports.getSingleFlight = async (req, res) => {
     try {
         let id = req.params.id;
