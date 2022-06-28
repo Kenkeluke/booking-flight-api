@@ -1,0 +1,46 @@
+@url = 
+
+
+
+GET http://localhost:3000/Flights HTTP/1.1
+
+###
+
+GET http://localhost:3000/singleFlight HTTP/1.1
+
+###
+
+ POST http://localhost:3000/Flights HTTP/1.1
+Content-Type: application/json
+
+{
+        "title": "Local:Flight to Abuja",
+        "time": "6pm",
+        "price": "N57,000",
+        "date": "29-07-2022"
+}
+
+###
+PUT http://localhost:3000/Flights HTTP/1.1
+Content-Type: application/json
+
+{
+        "title": "Local:Flight to Abuja",
+        "time": "6pm",
+        "price": "N57,000",
+        "date": "29-07-2022"
+}
+
+
+###
+DELETE http://localhost:3000/Flights HTTP/1.1
+Content-Type: application/json
+
+{
+        "title": "Local:Flight to Abuja",
+        "time": "6pm",
+        "price": "N57,000",
+        "date": "29-07-2022"
+}
+
+
